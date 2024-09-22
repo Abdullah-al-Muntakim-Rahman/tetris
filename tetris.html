@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title></title>
+    <style>
+      body {
+        background-color: #0d1518;
+        font-family: "Courier New", Courier, monospace;
+        font-size: 90%;
+      }
+
+      .disp {
+        width: 90%;
+        height: 80%;
+        background: #0d1518;
+        color: #2a9842;
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+      }
+
+      .button_container {
+        display: absolute;
+        align-self: center;
+      }
+
+      button {
+        width: 110px;
+        height: 50px;
+        background-color: #2a9842;
+        border: 0px;
+        color: #0d1518;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="screen" class="disp"></div>
+    <div class="button_container">
+      <button onclick="move_left()">←</button>
+      <button onclick="move_right()">→</button>
+      <button onclick="rotate()">🙂</button>
+    </div>
+    <script src="./main.js" defer></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- var tetch = dis.split("</br>");
+        
+        for (var p = 0; p < row; p++) {
+          if (tetch[p] == tet) {
+            tetch[p] = blank;
+          }
+        } -->
